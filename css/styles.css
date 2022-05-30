@@ -13,7 +13,6 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.71;
 }
 
 a{
@@ -29,7 +28,7 @@ ul{
     color: var(--accent-color);
     font-family: Raleway, normal;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
     font-weight: 700;
 }
 
@@ -42,7 +41,7 @@ ul{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.15;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -65,7 +64,7 @@ ul{
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.15;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -90,6 +89,7 @@ ul{
     cursor: pointer;
     margin: 0 auto;
     display: block;
+    font-family: inherit;
 }
 .hero-button{
     color:var(--primary-bg-color);
@@ -113,7 +113,7 @@ ul{
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -169,7 +169,7 @@ footer{
     color: var(--primary-bg-color);
 }
 footer .list{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-bg-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -177,7 +177,7 @@ footer .list{
 
 footer .list:hover,
 footer .list:focus{
-    color:var(--primary-bg-color);
+    color:rgba(255, 255, 255, 0.6);
 }
 address {
     font-style: normal
@@ -216,7 +216,7 @@ address {
 
 .portfolio-card p{
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
