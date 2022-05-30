@@ -169,16 +169,16 @@ footer{
     color: var(--primary-bg-color);
 }
 footer .list{
-    color: var(--primary-bg-color);
+    color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-footer .list:hover,
-footer .list:focus{
-    color:rgba(255, 255, 255, 0.6);
+footer .city{
+    color: var(--primary-bg-color);
 }
+
 address {
     font-style: normal
   }
@@ -193,6 +193,7 @@ address {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    font-family: inherit;
 }
 
 .filtres button:hover,
